@@ -10,5 +10,46 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+**/target/*
+**/out/*
+
+**/bin/**
+**/.settings/**
+
+caches
+/caches/
+
+daemon
+daemon/
+
+wrapper
+/wrapper/
+
+.gradle
+/.gradle/
+
+build/
+/build/
+
+${buildDir}
+/${buildDir}
+
+.idea
+/.idea/
+*.iws
+*impl
+*.ipr
+
+*.log
+
+/LOGS/
+**/logs/
+**/reports/
+**/work
+*.sc
+*.class
+*.zip
+
+.DS_Storeworkspace
+.project
+.classpath
