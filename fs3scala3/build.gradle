@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id 'scala'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.scala-lang', name: 'scala3-library_3', version: '3.0.2'
+
+    implementation group: 'co.fs2', name: 'fs2-core_3', version: '3.1.2'
+    implementation group: 'co.fs2', name: 'fs2-io_3', version: '3.1.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0'
+}
+
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.with {
+        additionalParameters = [
+                '-Ytasty-reader',
+//                '-feature',
+//                '-encoding',
+//                '-utf8',
+//                '-Xfatal-warnings',
+//                '-deprecation',
+//                '-unchecked',
+//                '-Xlint',
+//                '-Ymacro-annotations',
+//                '-language:implicitConversions',
+//                '-language:higherKinds',
+//                '-language:postfixOps',
+        ]
+    }
+}
+test {
+    useJUnitPlatform()
+}
