@@ -26,3 +26,6 @@ Link to scala3 & fs3 code: https://github.com/asjadoun/fs2-vs-fs3-chunks-to-list
     Using scala 3.0.2 and fs2 3.1.2, Chunk of 10000 elements conversion 'toList' elapsed time : 1525 ms
 
 Scala3 and FS3 has same poor performance as well
+
+
+CHANGE LOG:
