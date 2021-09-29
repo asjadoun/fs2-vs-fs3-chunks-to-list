@@ -1,4 +1,5 @@
 rootProject.name = 'chunks-to-list'
 include 'fs2'
 include 'fs3'
+include 'fs313'
 include 'fs3scala3'
