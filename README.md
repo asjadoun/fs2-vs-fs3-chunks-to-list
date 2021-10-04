@@ -34,3 +34,10 @@ Link to fs313 code: https://github.com/asjadoun/fs2-vs-fs3-chunks-to-list/blob/m
     Using fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 16 ms
     Using fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 0 ms
     Using fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 0 ms
+
+Link to scala3 & fs313 code: https://github.com/asjadoun/fs2-vs-fs3-chunks-to-list/blob/main/fs313scala3/src/main/scala/ChunkToListConversionFs313Scala3App.scala
+
+    Using scala 3.0.2 and fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 18 ms
+    Using scala 3.0.2 and fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 5 ms
+    Using scala 3.0.2 and fs2 3.1.3, Chunk of 10000 elements conversion 'toList' elapsed time : 7 ms
+
