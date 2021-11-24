@@ -11,7 +11,13 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'co.fs2', name: 'fs2-core_2.13', version: '3.1.2'
+//    implementation group: 'co.fs2', name: 'fs2-core_2.13', version: '3.1.2'
+    implementation group: 'co.fs2', name: 'fs2-core_2.13', version: '3.2.2'
+    implementation group: 'com.github.fd4s', name: 'fs2-kafka_2.13', version: '2.2.0'
+
+    implementation group: 'org.typelevel', name: 'log4cats-core_2.13', version: '2.1.1'
+    implementation group: 'org.typelevel', name: 'log4cats-slf4j_2.13', version: '2.1.1'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
